@@ -1,0 +1,37 @@
+Skipping registering GPU devices...
+Model loaded successfully!
+Preparing data...
+Data prepared successfully!
+Evaluating model...
+278/278 ━━━━━━━━━━━━━━━━━━━━ 7s 24ms/step   
+
+Emotion Classification Accuracy: 87.95%
+Gender Classification Accuracy: 99.79%
+
+Emotion Classification Report:
+              precision    recall  f1-score   support
+
+       angry       0.94      0.92      0.93      1463
+        calm       0.79      0.97      0.87       192
+     disgust       0.90      0.85      0.87      1463
+     fearful       0.90      0.84      0.87      1463
+       happy       0.85      0.87      0.86      1463
+     neutral       0.87      0.88      0.87      1183
+         sad       0.84      0.90      0.87      1463
+   surprised       0.88      0.93      0.91       192
+
+    accuracy                           0.88      8882
+   macro avg       0.87      0.90      0.88      8882
+weighted avg       0.88      0.88      0.88      8882
+
+
+Gender Classification Report:
+              precision    recall  f1-score   support
+
+      female       0.99      0.99      0.99       883
+        male       0.99      0.99      0.99       884
+     unknown       1.00      1.00      1.00      7115
+
+    accuracy                           1.00      8882
+   macro avg       0.99      0.99      0.99      8882
+weighted avg       1.00      1.00      1.00      8882
